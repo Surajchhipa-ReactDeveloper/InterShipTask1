@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../Assets/Fonts/Poppins-Medium.ttf") format("Truetype");
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../Assets/Fonts/Poppins-Regular.ttf") format("Truetype");
+}
+@font-face {
+  font-family: "Questrial-Regular";
+  src: url("../Assets/Fonts/Questrial-Regular.ttf") format("Truetype");
+}
+@font-face {
+  font-family: "Barlow-Bold";
+  src: url("../Assets/Fonts/Barlow-Bold.ttf") format("Truetype");
+}
+@font-face {
+  font-family: "BarlowCondensed-Bold";
+  src: url("../Assets/Fonts/BarlowCondensed-Bold.ttf") format("Truetype");
+}

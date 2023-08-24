@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+
+.Menu_Page_Main_Container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(251, 241, 241);
+  gap: 0.2rem;
+  width: 100%;
+  height: 100svh;
+  position: relative;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+.Menu_Page_Top_Container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0.5rem;
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
+  gap: 1.5rem;
+  background-color: white;
+}
+.Menu_Page_Search_Bar_And_Back_Button_Container {
+  display: flex;
+  gap: 1rem;
+  height: 3rem;
+}
+.Back_Button {
+  border: 1px solid #8a929b;
+  border-radius: 50%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.BackPageArrow {
+  /* padding: .5rem; */
+  width: 1rem;
+  height: 1rem;
+  object-fit: contain;
+  object-position: center;
+}
+.Search_Button {
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  border: 1px solid #8a929b;
+  border-radius: 1.5rem;
+  padding: 0.2rem 0.8rem;
+}
+.Input_From_User {
+  width: 100%;
+}
+.Search_Icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.SearchIcon {
+  width: 1.5rem;
+  object-fit: contain;
+  object-position: center;
+}
+.Input {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+  text-align: start;
+  width: 100%;
+  color: #8a929b;
+  border: none;
+  outline: none;
+}
+
+.Menu_List_Top_Button {
+  display: flex;
+  gap: 1rem;
+  padding: 0rem 1rem;
+}
+.SortTing_Main_Container {
+  /* padding: 0.5rem 1rem;
+  background: #ede3e2;
+  color: black;
+  font-weight: 660;
+  font-size: 0.9rem;
+  border-radius: 3rem; */
+  /* #832a0e */
+}
+.Sort_Type {
+  cursor: pointer;
+  border: 1.5px solid  #832a0e;
+  padding: 0.5rem 0.8rem;
+  background: #ede3e2;
+  color: black;
+  font-weight: 660;
+  font-size: 0.855rem;
+  border-radius: 3rem;
+  font-family: "Poppins-Regular";
+  text-align: center;
+}
+.activeSortBtn {
+  background-color: #832a0e;
+  color: white;
+  border-color: #832a0e;
+}
+.Menu_Page_Recommended_Container,
+.Menu_Page_Pizza_Container,
+.Menu_Page_MOmos_Container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  /* padding-left: 1.5rem; */
+  padding: 0.5rem 0rem 0.5rem 1rem;
+}
+/* .Menu_Page_MOmos_Container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+.Menu_Page_Pizza_Container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+} */
+.Footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 0.8rem 1.1rem;
+  background-color: #fff6eb;
+}
+.Footer_Left_Container {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+.MainLogo {
+  width: 4rem;
+  object-fit: contain;
+  object-position: center;
+}
+button {
+  border: none;
+  outline: none;
+  background: #fc7d1d;
+  padding: 0.4rem 0.8rem;
+  font-family: "Questrial-Regular";
+  color: white;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  border-radius: 2rem;
+}
+p {
+  color: #272768;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  font-family: "Poppins-Medium";
+}
+@media only screen and (max-width: 900px) {
+  .Menu_Page_Search_Bar_And_Back_Button_Container {
+    height: 2.8rem;
+  }
+  .Sort_Type {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8rem;
+  }
+}
