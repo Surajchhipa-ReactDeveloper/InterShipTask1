@@ -86,7 +86,7 @@
 }
 .Sort_Type {
   cursor: pointer;
-  border: 1.5px solid  #832a0e;
+  border: 1.5px solid red;
   padding: 0.5rem 0.8rem;
   background: #ede3e2;
   color: black;
@@ -166,5 +166,60 @@ p {
   .Sort_Type {
     padding: 0.5rem 0.8rem;
     font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Menu_Page_Search_Bar_And_Back_Button_Container {
+    height: 2.6rem;
+    gap: 0.7rem;
+  }
+  .Sort_Type {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.788rem;
+  }
+  .Back_Button {
+    padding: 0.8rem;
+  }
+  .MainLogo {
+    width: 3.5rem;
+  }
+  button {
+    padding: 0.3rem 0.7rem;
+    font-size: 0.84rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  .Menu_Page_Top_Container {
+    gap: 1.2rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Menu_Page_Search_Bar_And_Back_Button_Container {
+    height: 2.5rem;
+    gap: 0.7rem;
+  }
+  .Sort_Type {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.757rem;
+  }
+  .Back_Button {
+    padding: 0.8rem;
+  }
+  .MainLogo {
+    width: 3.1rem;
+  }
+  button {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.88rem;
+  }
+  p {
+    font-size: 0.777rem;
+  }
+  .Menu_Page_Top_Container {
+    gap: 1rem;
+  }
+  .Menu_List_Top_Button {
+    gap: .7rem;
   }
 }

@@ -32,8 +32,37 @@
 }
 .VagLogo {
   width: 1rem;
+  object-fit: cover;
 }
 
 .activeCategory {
-  color: #832a0e; 
+  color: #832a0e;
+}
+@media only screen and (max-width: 600px) {
+  .Food_Name {
+    font-size: 0.98rem;
+  }
+  .Food_Title {
+    font-size: 0.88rem;
+  }
+  .Food_Price {
+    font-size: 0.8rem;
+  }
+  .VagLogo {
+    width: 0.9rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .Food_Name {
+    font-size: 0.98rem;
+  }
+  .Food_Title {
+    font-size: 0.88rem;
+  }
+  .Food_Price {
+    font-size: 0.88rem;
+  }
+  .VagLogo {
+    width: 0.8rem;
+  }
 }
