@@ -1,0 +1,61 @@
+.Review_Container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(115 115 115);
+  gap: 0.05rem;
+}
+.ReView_Main_Container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem;
+  background: white;
+  gap: 0.8rem;
+}
+.Review_User_Profile_And_Name_Data_Container {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  height: 3.5rem;
+  justify-content: space-between;
+}
+.User_Profile_Container2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  padding: 0rem;
+}
+.Profile_And_Name_Left_Side_Container {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  /* justify-content: center/; */
+}
+.ReviewProfile {
+  width: 2.5rem;
+  object-fit: contain;
+}
+.User_Name_And_Rating{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+.Review_Date_Right_Side_Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ReviewUserName {
+  color: black;
+  font-size: 0.899rem;
+  font-family: "Poppins-Medium";
+}
+.UserReview ,.Date{
+  color: black;
+  font-size: 0.899rem;
+  font-family: "Poppins-Medium";
+}
+.Date{
+  font-family: "Barlow-Bold";
+    
+}

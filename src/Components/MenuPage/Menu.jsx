@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Menu.css";
 import FoodType from "../../Common/MenuItem/FoodType";
 import { Icon } from "../../Contstant/IconPath";
+import Footer from "../Footer/Footer";
 
 const SortData = [
   {
@@ -21,7 +22,7 @@ const Menu = () => {
   const [isActive, setIsActive] = useState(2);
   const [currentValue, setCurrentValue] = useState();
   const ChangeOrderSort = (index, Type) => {
-    setCurrentValue(Type)
+    setCurrentValue(Type);
     switch (Type) {
       case "Recommended": {
         setIsActive(index);
@@ -44,9 +45,13 @@ const Menu = () => {
       <div className="Menu_Page_Main_Container">
         <div className="Menu_Page_Top_Container">
           <div className="Menu_Page_Search_Bar_And_Back_Button_Container">
-            <div className="Back_Button">
+            <div
+              className="Back_Button"
+              onClick={() => (window.location.href = "/")}
+            >
               <img src={Icon.BackArrow} alt="" className="BackPageArrow" />
             </div>
+
             <div className="Search_Button">
               <div className="Input_From_User">
                 <input
@@ -106,15 +111,6 @@ const Menu = () => {
             FTitle={"All time margherita 8 inch"}
             isActive={currentValue === "PIZZA'S"}
           />
-        </div>
-        <div className="Footer">
-          <div className="Footer_Left_Container">
-            <img src={Icon.MainLogo} alt="" className="MainLogo" />
-            <p> Join Eats Wishlist</p>
-          </div>
-          <div className="Footer_Right_Container">
-            <button>Pre-register</button>
-          </div>
         </div>
       </div>
     </>

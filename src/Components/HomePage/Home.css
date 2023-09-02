@@ -1,0 +1,58 @@
+.Home_Page_Container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100svh;
+}
+
+.Home_Page_Top_Logo {
+  padding: 1rem 1.5rem;
+}
+.MainLogoHome {
+  width: 5.5rem;
+  object-fit: cover;
+  object-position: center;
+}
+.Home_Page_OverView_And_Reviews_Container {
+  /* padding: 1rem 0rem; */
+  display: flex;
+  width: 100%;
+  padding-top: 10rem;
+  background-color: #f8f8f8;
+  justify-content: space-around;
+  border-bottom: 1px solid rgb(129, 160, 35);
+}
+.OverView_And_Reviews_Left_Container,
+.OverView_And_Reviews_Right_Container {
+  /* width: 100%; */
+  /* border-bottom: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+.Tab_Link{
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0%;
+  background-color: transparent;
+  /* background-color: rgb(41, 81, 116); */
+  color: black;
+  /* padding-bottom: 1rem; */
+  padding: .8rem;
+  font-size: 1rem;
+  font-family: "Barlow-Bold";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.Tab_Link:hover{
+  transition: all .1ms ease-in-out;
+  background-color: #782c1519;
+}
+.Active_Tab{
+  border-bottom: 3.5px solid #782c15;
+  color: #782c15;
+}

@@ -142,7 +142,7 @@
   object-fit: contain;
   object-position: center;
 }
-button {
+.register {
   border: none;
   outline: none;
   background: #fc7d1d;
