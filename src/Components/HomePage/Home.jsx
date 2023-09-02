@@ -5,7 +5,6 @@ import OverView from "../OverView/OverView";
 import Review from "../ReView/Review";
 
 const Home = () => {
-  const [active, setActive] = useState();
   const [tabName, setTabName] = useState("OverView");
   // const Tab = ["OverView", "Review"];
   const DisplayContent = () => {
@@ -16,12 +15,12 @@ const Home = () => {
         return <Review />;
     }
   };
-    const [activeTab, setActiveTab] = useState("OverView");
-    const Tab = ["OverView", "Review"];
+  const [activeTab, setActiveTab] = useState("OverView");
+  const Tab = ["OverView", "Review"];
 
-    const TabSwitchHandler = (tab) => {
-      setActiveTab(tab);
-    };
+  const TabSwitchHandler = (tab) => {
+    setActiveTab(tab);
+  };
   // const TabSwitchHandler = (Tab) => {
   //   setTabName(Tab);
   // };
@@ -51,6 +50,10 @@ const Home = () => {
           })}
         </div>
         {activeTab === "OverView" ? <OverView /> : <Review />}
+        <div className="Food_Menu_Button">
+          <img src={Icon.KnifandSpon} alt="" className="ButtonImg" />
+          <p className="FoodMenuBtn">Food Menu</p>
+        </div>
       </div>
     </>
   );
