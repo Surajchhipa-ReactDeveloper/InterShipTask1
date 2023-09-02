@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="Footer_Right_Container">
           <button
             className="register"
-            onClick={() => (window.location.href = "/menu")}
+          
           >
             Pre-register
           </button>

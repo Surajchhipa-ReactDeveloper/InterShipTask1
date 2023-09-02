@@ -50,7 +50,10 @@ const Home = () => {
           })}
         </div>
         {activeTab === "OverView" ? <OverView /> : <Review />}
-        <div className="Food_Menu_Button">
+        <div
+          className="Food_Menu_Button"
+          onClick={() => (window.location.href = "/menu")}
+        >
           <img src={Icon.KnifandSpon} alt="" className="ButtonImg" />
           <p className="FoodMenuBtn">Food Menu</p>
         </div>
