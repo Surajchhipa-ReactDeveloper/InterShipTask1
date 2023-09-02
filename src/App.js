@@ -1,5 +1,5 @@
 import { React, Suspense } from "react";
-import "./App.css"
+import "./App.css";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Menu from "./Components/MenuPage/Menu";
 import Home from "./Components/HomePage/Home";
@@ -10,10 +10,6 @@ import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <>
-      {/* <Home /> */}
-
-      {/* <Review/> */}
-
       <Router>
         <Suspense fallback={"Loading..."}>
           <Routes>
@@ -21,7 +17,7 @@ function App() {
             <Route path="/menu" name="Menu" element={<Menu />} />
           </Routes>
         </Suspense>
-      </Router> 
+      </Router>
       <Footer />
     </>
   );

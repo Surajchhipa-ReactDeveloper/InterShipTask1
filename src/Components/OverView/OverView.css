@@ -97,11 +97,13 @@ span {
   object-fit: contain;
 }
 .Product_Admin {
-  height: 8rem;
+  height: 6.5rem;
   background-color: white;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   padding: 0.8rem 0.5rem 0.8rem 5rem;
+  justify-content: center;
 }
 .Production {
   font-size: 1.1rem;

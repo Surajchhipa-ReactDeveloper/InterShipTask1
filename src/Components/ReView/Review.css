@@ -3,6 +3,7 @@
   flex-direction: column;
   background-color: rgb(115 115 115);
   gap: 0.05rem;
+  height: 50svh;
 }
 .ReView_Main_Container {
   display: flex;
@@ -35,10 +36,10 @@
   width: 2.5rem;
   object-fit: contain;
 }
-.User_Name_And_Rating{
-    display: flex;
-    flex-direction: column;
-    gap: .2rem;
+.User_Name_And_Rating {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
 }
 .Review_Date_Right_Side_Container {
   display: flex;
@@ -50,12 +51,26 @@
   font-size: 0.899rem;
   font-family: "Poppins-Medium";
 }
-.UserReview ,.Date{
+.UserReview,
+.Date {
   color: black;
   font-size: 0.899rem;
   font-family: "Poppins-Medium";
 }
-.Date{
+.Date {
   font-family: "Barlow-Bold";
-    
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e8e8e885;
+  border-radius: 7px;
+}
+
+.custom-scrollbar {
+  height: 53svh;
+  overflow: auto;
 }
